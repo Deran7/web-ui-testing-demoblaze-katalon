@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adding Sony vaio i5 to the laptop category</description>
+   <name>Adding and order Sony vaio i5 in the laptop category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54716cac-1916-4e34-a655-5910910f913a</testCaseGuid>
+</TestCaseEntity>

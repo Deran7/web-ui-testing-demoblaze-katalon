@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adding Samsung Galaxy S6 to the phone category</description>
+   <name>Adding and order Samsung Galaxy S6 in the phone category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6313f83-66e4-4c1c-bacf-9d6022f71b55</testCaseGuid>
+</TestCaseEntity>

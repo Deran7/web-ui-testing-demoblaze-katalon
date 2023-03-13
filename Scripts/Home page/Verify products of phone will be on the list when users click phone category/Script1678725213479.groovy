@@ -21,12 +21,18 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.click(findTestObject('Object Repository/Sign up/Sign up negative case/Page_STORE/a_Sign up'))
+WebUI.click(findTestObject('Object Repository/Home/Phone categories/Page_STORE/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Sign up/Sign up negative case/Page_STORE/input_Username_sign-username'), 
-    'Alderan Robi')
+WebUI.setText(findTestObject('Object Repository/Home/Phone categories/Page_STORE/input_Username_loginusername'), 'Alderan Robi')
 
-WebUI.click(findTestObject('Object Repository/Sign up/Sign up negative case/Page_STORE/button_Sign up'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Home/Phone categories/Page_STORE/input_Password_loginpassword'), 
+    'Wgqb8Q63CCiLnlJovRF9cA==')
+
+WebUI.click(findTestObject('Object Repository/Home/Phone categories/Page_STORE/button_Log in'))
+
+WebUI.click(findTestObject('Object Repository/Home/Phone categories/Page_STORE/a_Phones'))
+
+WebUI.click(findTestObject('Object Repository/Home/Phone categories/Page_STORE/a_Samsung galaxy s6'))
 
 WebUI.closeBrowser()
 

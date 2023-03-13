@@ -21,12 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.click(findTestObject('Object Repository/Sign up/Sign up negative case/Page_STORE/a_Sign up'))
+WebUI.click(findTestObject('Object Repository/Login/Login negative case/Page_STORE/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Sign up/Sign up negative case/Page_STORE/input_Username_sign-username'), 
-    'Alderan Robi')
+WebUI.setText(findTestObject('Object Repository/Login/Login negative case/Page_STORE/input_Username_loginusername'), 'ald')
 
-WebUI.click(findTestObject('Object Repository/Sign up/Sign up negative case/Page_STORE/button_Sign up'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Login negative case/Page_STORE/input_Password_loginpassword'), 
+    'iGDxf8hSRT4=')
+
+WebUI.click(findTestObject('Object Repository/Login/Login negative case/Page_STORE/button_Log in'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify products of phone will be on the list when users click phone category</description>
+   <name>Verify products of phone will be on the list when users click phone category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d64a2d6-48d4-409f-bc0b-087d8c0b1448</testCaseGuid>
+</TestCaseEntity>
